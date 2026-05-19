@@ -10,7 +10,7 @@ class Fractions
     public Fractions(long integerPart, int fractionPart)
     {
         IntegerPart = integerPart;
-        // Нормализация дробной части при создании (перенос избытка)
+        
         int totalFraction = fractionPart;
         if (totalFraction >= SCALE)
         {
@@ -19,7 +19,7 @@ class Fractions
         }
         else if (totalFraction < 0)
         {
-            // Отрицательная дробная часть – заём из целой
+            
             long needed = (-totalFraction + SCALE - 1) / SCALE;
             IntegerPart -= needed;
             totalFraction += (int)(needed * SCALE);
@@ -42,7 +42,6 @@ class Fractions
             FractionPart = (ushort)(SCALE + FractionPart);
         }
 
-        // Унификация знака: если целая часть отрицательна, а дробная положительна – корректируем
         if (IntegerPart < 0 && FractionPart > 0)
         {
             IntegerPart += 1;
@@ -55,21 +54,21 @@ class Fractions
         return IntegerPart * SCALE + FractionPart;
     }
 
-    // Сложение (исправлено)
+    // Сложение 
     public static Fractions operator +(Fractions a, Fractions b)
     {
         long res = a.ToScaled() + b.ToScaled();
         return FromScaled(res);
     }
 
-    // Вычитание (исправлено)
+    // Вычитание 
     public static Fractions operator -(Fractions a, Fractions b)
     {
         long res = a.ToScaled() - b.ToScaled();
         return FromScaled(res);
     }
 
-    // Умножение (НАМЕРЕННО ОСТАВЛЕНО НЕВЕРНЫМ – отсутствует деление на SCALE)
+    // Умножение
     public static Fractions operator *(Fractions a, Fractions b)
     {
         long res = a.ToScaled() * b.ToScaled(); // ОШИБКА: нужно делить на SCALE
@@ -99,6 +98,5 @@ class Fractions
 
     public override int GetHashCode() => ToScaled().GetHashCode();
 
-    // ToString() исправлен – всегда 4 цифры дробной части
     public override string ToString() => $"{IntegerPart},{FractionPart:D4}";
 }
