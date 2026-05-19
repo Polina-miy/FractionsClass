@@ -1,0 +1,28 @@
+c:\Users\полина_бум\MyApp\bin\Debug\net11.0\MyApp.exe
+C:\Users\полина_бум\MyApp\bin\Debug\net11.0\MyApp.deps.json
+C:\Users\полина_бум\MyApp\bin\Debug\net11.0\MyApp.runtimeconfig.json
+c:\Users\полина_бум\MyApp\bin\Debug\net11.0\MyApp.dll
+c:\Users\полина_бум\MyApp\bin\Debug\net11.0\MyApp.pdb
+c:\Users\полина_бум\MyApp\obj\Debug\net11.0\MyApp.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\полина_бум\MyApp\obj\Debug\net11.0\MyApp.AssemblyInfoInputs.cache
+c:\Users\полина_бум\MyApp\obj\Debug\net11.0\MyApp.AssemblyInfo.cs
+c:\Users\полина_бум\MyApp\obj\Debug\net11.0\MyApp.csproj.CoreCompileInputs.cache
+c:\Users\полина_бум\MyApp\obj\Debug\net11.0\MyApp.dll
+c:\Users\полина_бум\MyApp\obj\Debug\net11.0\refint\MyApp.dll
+c:\Users\полина_бум\MyApp\obj\Debug\net11.0\MyApp.pdb
+C:\Users\полина_бум\MyApp\obj\Debug\net11.0\MyApp.genruntimeconfig.cache
+C:\Users\полина_бум\MyApp\obj\Debug\net11.0\ref\MyApp.dll
+c:\Users\полина_бум\Desktop\Учебная практика\MyApp\bin\Debug\net11.0\MyApp.exe
+C:\Users\полина_бум\Desktop\Учебная практика\MyApp\bin\Debug\net11.0\MyApp.deps.json
+C:\Users\полина_бум\Desktop\Учебная практика\MyApp\bin\Debug\net11.0\MyApp.runtimeconfig.json
+c:\Users\полина_бум\Desktop\Учебная практика\MyApp\bin\Debug\net11.0\MyApp.dll
+c:\Users\полина_бум\Desktop\Учебная практика\MyApp\bin\Debug\net11.0\MyApp.pdb
+c:\Users\полина_бум\Desktop\Учебная практика\MyApp\obj\Debug\net11.0\MyApp.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\полина_бум\Desktop\Учебная практика\MyApp\obj\Debug\net11.0\MyApp.AssemblyInfoInputs.cache
+c:\Users\полина_бум\Desktop\Учебная практика\MyApp\obj\Debug\net11.0\MyApp.AssemblyInfo.cs
+c:\Users\полина_бум\Desktop\Учебная практика\MyApp\obj\Debug\net11.0\MyApp.csproj.CoreCompileInputs.cache
+c:\Users\полина_бум\Desktop\Учебная практика\MyApp\obj\Debug\net11.0\MyApp.dll
+c:\Users\полина_бум\Desktop\Учебная практика\MyApp\obj\Debug\net11.0\refint\MyApp.dll
+c:\Users\полина_бум\Desktop\Учебная практика\MyApp\obj\Debug\net11.0\MyApp.pdb
+C:\Users\полина_бум\Desktop\Учебная практика\MyApp\obj\Debug\net11.0\MyApp.genruntimeconfig.cache
+C:\Users\полина_бум\Desktop\Учебная практика\MyApp\obj\Debug\net11.0\ref\MyApp.dll
